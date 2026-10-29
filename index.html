@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Final project portfolio website for Debatri Roy, a BCA student.">
+  <title>Personal Portfolio Website | Debatri Roy</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <nav class="navbar container" aria-label="Main navigation">
+      <a class="logo" href="#home">Debatri<span>Portfolio</span></a>
+      <button class="menu-toggle" id="menuToggle" type="button" aria-expanded="false" aria-controls="navLinks">
+        <span class="sr-only">Toggle navigation</span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <div class="nav-links" id="navLinks">
+        <a href="#about">About</a>
+        <a href="#project-details">Project</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero container" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow">BCA final project · Personal portfolio website</p>
+        <h1>I'm <span class="accent">Debatri Roy</span></h1>
+        <h2>BCA Student &amp; Beginner Web Developer</h2>
+        <p class="hero-description">
+          A simple, responsive website to introduce myself, share what I am learning,
+          and make it easy to get in touch.
+        </p>
+        <div class="hero-buttons">
+          <a class="button button-primary" href="#project-details">Explore the project</a>
+          <a class="button button-outline" href="#contact">Contact me</a>
+        </div>
+      </div>
+      <div class="hero-art" aria-hidden="true">
+        <div class="avatar">DR</div>
+        <div class="code-card">
+          <span class="code-prompt">&lt;/&gt;</span>
+          <p>Learning a little<br>every day.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="about">
+      <div class="section-heading">
+        <p class="eyebrow">Introduction</p>
+        <h2>A BCA student learning by building</h2>
+      </div>
+      <div class="about-card">
+        <p>
+          My name is Debatri Roy, and I am a Bachelor of Computer Applications (BCA)
+          student. I am building a foundation in programming and computer science, and
+          practicing web development with HTML, CSS, and JavaScript.
+        </p>
+        <p>
+          This portfolio is my beginner-friendly final project. It brings my introduction,
+          skills, project work, education, and contact details together in one place.
+        </p>
+      </div>
+    </section>
+
+    <section class="section section-tinted" id="project-details">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Final project overview</p>
+          <h2>Personal Portfolio Website</h2>
+          <p class="section-intro">
+            A responsive website that presents a student's background and provides a
+            straightforward way for visitors to make contact.
+          </p>
+        </div>
+        <div class="overview-grid">
+          <article class="overview-card">
+            <span class="overview-label">01 · Objective</span>
+            <h3>Introduce myself</h3>
+            <p>Present my BCA studies, learning goals, skills, and projects in a clear format.</p>
+          </article>
+          <article class="overview-card">
+            <span class="overview-label">02 · Features</span>
+            <h3>Easy to explore</h3>
+            <p>Use section navigation, a mobile menu, project cards, and a contact form that prepares an email.</p>
+          </article>
+          <article class="overview-card">
+            <span class="overview-label">03 · Technology</span>
+            <h3>Built with web basics</h3>
+            <p>HTML structures the page, CSS styles it for different screens, and JavaScript handles interactions.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-tinted" id="skills">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">What I'm learning</p>
+          <h2>My skills</h2>
+        </div>
+        <div class="skills-grid">
+          <article class="skill-card">
+            <span class="skill-icon" aria-hidden="true">&lt;/&gt;</span>
+            <h3>Web basics</h3>
+            <p>HTML, CSS, and JavaScript</p>
+          </article>
+          <article class="skill-card">
+            <span class="skill-icon" aria-hidden="true">{ }</span>
+            <h3>Programming basics</h3>
+            <p>Variables, conditions, loops, and problem-solving</p>
+          </article>
+          <article class="skill-card">
+            <span class="skill-icon" aria-hidden="true">01</span>
+            <h3>Tools</h3>
+            <p>VS Code, Git, and GitHub</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="projects">
+      <div class="section-heading">
+        <p class="eyebrow">Project work</p>
+        <h2>Projects &amp; learning goals</h2>
+        <p class="section-intro">The portfolio is my current project; the other cards show what I plan to practice next.</p>
+      </div>
+      <div class="projects-grid">
+        <article class="project-card">
+          <span class="project-number">01 · Current project</span>
+          <h3>Personal Portfolio Website</h3>
+          <p>This responsive site introduces me and demonstrates HTML, CSS, page layout, and JavaScript interactions.</p>
+          <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+        </article>
+        <article class="project-card">
+          <span class="project-number">02 · Next practice</span>
+          <h3>To-Do List</h3>
+          <p>A planned beginner project for practicing form input, events, and updating a page with JavaScript.</p>
+          <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+        </article>
+        <article class="project-card">
+          <span class="project-number">03 · Next practice</span>
+          <h3>Study Planner</h3>
+          <p>A planned project for organizing study tasks and practicing simple interactive features.</p>
+          <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section section-tinted" id="education">
+      <div class="container education-content">
+        <div class="section-heading">
+          <p class="eyebrow">My studies</p>
+          <h2>Education</h2>
+        </div>
+        <article class="education-card">
+          <span class="education-icon" aria-hidden="true">✦</span>
+          <div>
+            <h3>Bachelor of Computer Applications (BCA)</h3>
+            <p>Institute of Engineering &amp; Management (IEM), Kolkata</p>
+            <p class="muted">2024 – 2028</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section container" id="contact">
+      <div class="contact-card">
+        <div>
+          <p class="eyebrow">Have a question?</p>
+          <h2>Let's get in touch</h2>
+          <p>Use the form to open an email in your email app.</p>
+          <a class="email-link" href="mailto:debatrir07@gmail.cm">debatrir07@gmail.cm</a>
+        </div>
+        <form id="contactForm" class="contact-form">
+          <label for="visitorName">Your name</label>
+          <input id="visitorName" name="name" type="text" placeholder="Enter your name" required>
+          <label for="visitorEmail">Your email</label>
+          <input id="visitorEmail" name="email" type="email" placeholder="Enter your email" required>
+          <label for="visitorMessage">Message</label>
+          <textarea id="visitorMessage" name="message" rows="4" placeholder="Write a message" required></textarea>
+          <button class="button button-primary" type="submit">Write an email</button>
+          <p class="form-message" id="formMessage" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <p>Personal Portfolio Website · BCA Project by Debatri Roy</p>
+      <p>&copy; <span id="currentYear"></span> Debatri Roy</p>
+    </div>
+  </footer>
+</body>
+</html>
